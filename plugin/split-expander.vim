@@ -12,7 +12,7 @@
 scriptencoding utf-8
 
 function! ExpandWidth()
-    if exists('b:blarghmatey_maxWidth_lastWidth')
+    if exists('b:blarghmatey_expandWidth_lastWidth')
         let widthResult = b:blarghmatey_expandWidth_lastWidth
         unlet b:blarghmatey_expandWidth_lastWidth
     else
